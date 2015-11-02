@@ -14,10 +14,9 @@
     <packaging>hpi</packaging>
 
     <name>Reactor plugin</name>
-    <description>Provide Upstream/Downstream build triggering</description>
-    <!--
-    <url>http://wiki.jenkins-ci.org/display/JENKINS/Docker+Plugin</url>
--->
+    <description>Provide programmatic Upstream/Downstream build triggering</description>   
+    <url>http://wiki.jenkins-ci.org/display/JENKINS/Reactor+Plugin</url>
+
     <developers>
         <developer>
             <id>magnayn</id>
