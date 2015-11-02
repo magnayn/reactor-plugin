@@ -10,12 +10,19 @@
 
     <groupId>com.nirima</groupId>
     <artifactId>reactor-plugin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
     <name>Reactor plugin</name>
     <description>Provide programmatic Upstream/Downstream build triggering</description>   
     <url>http://wiki.jenkins-ci.org/display/JENKINS/Reactor+Plugin</url>
+
+    <scm>
+        <connection>scm:git:git://github.com/magnayn/reactor-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:magnayn/reactor-plugin.git</developerConnection>
+        <url>http://github.com/magnayn/reactor-plugin</url>
+      <tag>reactor-plugin-0.1</tag>
+  </scm>
 
     <developers>
         <developer>
