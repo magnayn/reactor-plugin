@@ -41,6 +41,11 @@ public class RegisterReactorStep  extends Builder implements Serializable, Simpl
       property.reactorScript = new FilePath(workspace, scriptPath).readToString();
     }
 
+    ReactorJobProperty old;
+    while(( old = run.getParent().getProperty(ReactorJobProperty.class)) != null){
+        run.getParent().removeProperty(old);
+    }
+
     run.getParent().addProperty(property);
     run.getParent().save();
 

@@ -54,6 +54,7 @@ public class FireEventStep extends Builder implements Serializable, SimpleBuildS
     event.eventName = eventName;
     event.buildNumber = run.getNumber();
     event.jobName = run.getParent().getName();
+    event.jobFullName = run.getParent().getFullName();
     event.eventProperties = makeProperties(properties);
 
     PluginImpl.getInstance().fireEvent(run, event);

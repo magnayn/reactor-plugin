@@ -47,7 +47,7 @@ public class ReactorJobProperty extends JobProperty<Job<?, ?>>
     public JobProperty<?> newInstance(StaplerRequest req,
                                       JSONObject formData) throws FormException {
       ReactorJobProperty r = new ReactorJobProperty();
-
+      r.reactorScript = (String)formData.get("reactorScript");
       return r;
     }
 
