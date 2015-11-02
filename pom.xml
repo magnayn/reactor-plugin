@@ -10,7 +10,7 @@
 
     <groupId>com.nirima</groupId>
     <artifactId>reactor-plugin</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
     <name>Reactor plugin</name>
@@ -21,7 +21,7 @@
         <connection>scm:git:git://github.com/magnayn/reactor-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:magnayn/reactor-plugin.git</developerConnection>
         <url>http://github.com/magnayn/reactor-plugin</url>
-      <tag>reactor-plugin-0.1.1</tag>
+      <tag>reactor-plugin-0.1</tag>
   </scm>
 
     <developers>
