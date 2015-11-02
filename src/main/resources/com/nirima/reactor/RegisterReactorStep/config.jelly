@@ -1,0 +1,15 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+
+    <f:entry title="File containing script" field="scriptPath"
+             description="Location to look a script to evaluate">
+        <f:textbox />
+    </f:entry>
+
+    <f:entry title="Script" field="scriptData"
+             description="Script to execute">
+        <f:expandableTextbox/>
+    </f:entry>
+
+</j:jelly>
