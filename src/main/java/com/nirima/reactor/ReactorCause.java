@@ -1,5 +1,7 @@
 package com.nirima.reactor;
 
+import org.jenkinsci.plugins.scriptsecurity.sandbox.whitelists.Whitelisted;
+
 import java.io.Serializable;
 
 import hudson.model.Cause;
@@ -9,6 +11,7 @@ import hudson.model.Cause;
  */
 public class ReactorCause extends Cause implements Serializable {
 
+  @Whitelisted
   public final ReactorEvent event;
 
   public ReactorCause(ReactorEvent event) {
